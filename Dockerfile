@@ -9,4 +9,6 @@ VOLUME ["/WolfshadeMud/players/"]
 
 COPY startup.sh .
 
+EXPOSE 1234
+
 CMD ["./startup.sh"]
